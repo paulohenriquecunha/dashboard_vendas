@@ -25,34 +25,6 @@ Este projeto foi desenvolvido como parte do curso **"Domine a Análise de Dados:
     └── vendas.json    # Dataset de vendas utilizado
 ```
 
-## ▶️ Como Executar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
-```
-
-2. Crie e ative seu ambiente virtual (opcional, mas recomendado):
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-```
-
-3. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-
-4. Certifique-se de que o arquivo **vendas.json** está na pasta `dados/`.
-
-5. Execute a aplicação:
-```bash
-streamlit run app.py
-```
-
 ## 📁 Dataset
 O dataset utilizado está no formato JSON e contém informações como:
 * Data da compra
